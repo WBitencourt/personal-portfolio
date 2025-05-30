@@ -1,0 +1,20 @@
+{
+  "greeting": {
+    "name": "Hello, {name}!"
+  },
+  "pages": {
+    "home": {
+      "title": "Wendell Bitencourt",
+      "construction": "Portfolio under construction"
+    }
+  },
+  "header": {
+    "select": {
+      "placeholder": "Select language",
+      "label": "Language"
+    }
+  },
+  "footer": {
+    "copyright": "All rights reserved."
+  }
+}

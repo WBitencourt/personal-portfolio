@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://wbitencourt.dev/sitemap.xml
