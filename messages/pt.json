@@ -25,7 +25,54 @@
       "description": "Motivado por desafios tecnológicos, me sinto mais curioso, mais criativo e pronto para planejar e construir boas soluções."
     },
     "skills": {
-      "title": "Habilidades"
+      "title": "Principais linguagens e ferramentas",
+      "experience": {
+        "title": "Tenho experiência",
+        "techs": [
+          {"name": "JavaScript", "icon": "javascript.svg", "url": "https://www.javascript.com/"},
+          {"name": "React", "icon": "react.svg", "url": "https://reactjs.org/"},
+          {"name": "Tailwind", "icon": "tailwind.svg", "url": "https://tailwindcss.com/"},
+          {"name": "AWS", "icon": "aws.svg", "url": "https://aws.amazon.com/"},
+          {"name": "Node.js", "icon": "nodejs.svg", "url": "https://nodejs.org/en/"},
+          {"name": "TypeScript", "icon": "typescript.svg", "url": "https://www.typescriptlang.org/"},
+          {"name": "Next.js", "icon": "nextjs.svg", "url": "https://nextjs.org/"},
+          {"name": "Zustand", "icon": "zustand.png", "url": "https://zustand-demo.pmnd.rs/"},
+          {"name": "Docker", "icon": "docker.svg", "url": "https://www.docker.com/"},
+          {"name": "Nest.js", "icon": "nestjs.svg", "url": "https://nestjs.com/"},
+          {"name": "HTML5", "icon": "html5.svg", "url": "https://www.w3.org/html/"},
+          {"name": "Playwright", "icon": "playwright.svg", "url": "https://playwright.dev"},
+          {"name": "Storybook", "icon": "storybook.svg", "url": "https://storybook.js.org/"},
+          {"name": "PostgreSQL", "icon": "postgresql.svg", "url": "https://www.postgresql.org/"},
+          {"name": "Git", "icon": "git.svg", "url": "https://git-scm.com/"},
+          {"name": "CSS3", "icon": "css3.svg", "url": "https://www.w3.org/Style/CSS/Overview.en.html"},
+          {"name": "Vitest", "icon": "vitest.svg", "url": "https://vitest.dev"},
+          {"name": "Prisma", "icon": "prisma.svg", "url": "https://www.prisma.io/"}
+        ]
+      },
+      "worked_with": {
+        "title": "Já trabalhei com",
+        "techs": [
+          {"name": "C#", "icon": "csharp.svg", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"},
+          {"name": "SQL Server", "icon": "sqlserver.svg", "url": "https://www.microsoft.com/en-us/sql-server/"},
+          {"name": "Bootstrap", "icon": "bootstrap.svg", "url": "https://getbootstrap.com/"}
+        ]
+      },
+      "studying": {
+        "title": "Estou estudando",
+        "techs": [
+          {"name": "Python", "icon": "python.svg", "url": "https://www.python.org/"},
+          {"name": "IA", "icon": "ia.svg", "url": "https://app.rocketseat.com.br/journey/inteligencia-artificial/contents"},
+          {"name": "MongoDB", "icon": "mongodb.svg", "url": "https://www.mongodb.com/"}
+        ]
+      },
+      "interested": {
+        "title": "Tenho interesse",
+        "techs": [
+          {"name": "GraphQL", "icon": "graphql.svg", "url": "https://graphql.org/"},
+          {"name": "Expo", "icon": "expo.svg", "url": "https://expo.dev"},
+          {"name": "React Native", "icon": "reactnative.svg", "url": "https://reactnative.dev/"}
+        ]
+      }
     },
     "education": {
       "title": "Formação",
