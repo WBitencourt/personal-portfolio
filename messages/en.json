@@ -16,5 +16,123 @@
   },
   "footer": {
     "copyright": "All rights reserved"
+  },
+  "portfolio": {
+    "title": "Wendell Bitencourt - Software Engineer",
+    "subtitle": "Software Engineer",
+    "about": {
+      "title": "About",
+      "description": "Motivated by technology challenges, I feel more curious, more creative and ready to plan and build good solutions."
+    },
+    "skills": {
+      "title": "Skills"
+    },
+    "education": {
+      "title": "Education",
+      "unip": {
+        "institution": "Universidade Paulista UNIP",
+        "degree": "Bachelor's Degree in Computer Science",
+        "period": "2018 - 2020"
+      },
+      "rocketseat": {
+        "institution": "Rocketseat",
+        "degree": "Rocketseat One",
+        "period": "2021 - present"
+      },
+      "anchieta": {
+        "institution": "Colégio Anchieta",
+        "degree": "Technical Course in Electronics",
+        "period": "2013 - 2016"
+      },
+      "wizard": {
+        "institution": "Wizard",
+        "degree": "English Course",
+        "period": "Currently resuming studies at intermediate level (B1) | 2025 - present",
+        "additional": "Completed beginner and part of intermediate level | 2013 - 2015"
+      }
+    },
+    "languages": {
+      "title": "Languages",
+      "english": "English",
+      "portuguese": "Portuguese",
+      "levels": {
+        "intermediate": "Intermediate B1",
+        "native": "Native"
+      }
+    },
+    "experience": {
+      "title": "Experience",
+      "oito_mid": {
+        "company": "Oito Tecnologia Jurídica",
+        "period": "2023 - Present",
+        "role": "Mid-level Software Engineer",
+        "description": [
+          "Led project architecture and development using suitable technologies.",
+          "Worked with the PO to analyze requirements that supplement with focus on quality and customer.",
+          "Contributed to automation of log workflows in a SaaS platform, reducing verification time to save time.",
+          "Maintained and refactored core systems, always aiming for high quality standards."
+        ]
+      },
+      "oito_junior": {
+        "company": "Oito Tecnologia Jurídica",
+        "period": "2022 - 2023",
+        "role": "Junior Software Engineer",
+        "description": [
+          "Created and chained processes, specificações in S3 from payloads, used containers for data sharing enriches.",
+          "Set up AWS Lambda for send and scalable authorization in internal processes.",
+          "Set up AWS SES to send and receive emails in a company project."
+        ]
+      },
+      "vinhanet_analyst": {
+        "company": "VinhaNet Informática Ltda",
+        "period": "2020 - 2022",
+        "role": "Junior Programmer Analyst",
+        "description": [
+          "Worked on system maintenance and refactoring to keep high quality standards.",
+          "Worked on integration with SEFAZ systems using Web Services for fiscal communication.",
+          "Published the system in the development environment and prepared files for production.",
+          "Created and shared technical reports about new features with support and sales teams.",
+          "Organized tasks and deliveries using agile method with Trello (Kanban)."
+        ]
+      },
+      "vinhanet_trainee": {
+        "company": "VinhaNet Informática Ltda",
+        "period": "2019 - 2020",
+        "role": "Trainee at Systems Development",
+        "description": [
+          "Refactored and improved cloud ERP features, keeping code clean and scalable.",
+          "Developed and maintained SQL (queries, procedures, views) in a legacy system with SQL Server.",
+          "Refactored RDLC reports in ReportViewer to improve performance and visualization.",
+          "Provided technical support and assistance to end users."
+        ]
+      }
+    },
+    "projects": {
+      "title": "Projects",
+      "npm_package": {
+        "name": "Npm package wbitencourt",
+        "year": "2025",
+        "description": "Personal monorepo with NPM tools (CLI and utility library) built to improve workflow and learning in TypeScript.",
+        "link": "View project"
+      },
+      "with_love": {
+        "name": "With love",
+        "year": "2025",
+        "description": "An interactive and personalized web app made for a special occasion, with photo slideshow, relationship info, music player and animations.",
+        "link": "View project"
+      },
+      "bluetooth_car": {
+        "name": "Bluetooth solar RC car",
+        "year": "2021",
+        "description": "Solar RC car controlled by Bluetooth. Project focused on energy optimization and electronics.",
+        "link": "View project"
+      }
+    },
+    "contact": {
+      "location": "São Bernardo do Campo - SP, Brazil"
+    },
+    "footer": {
+      "built_with": "Built with Next.js and Tailwind CSS"
+    }
   }
 }

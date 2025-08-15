@@ -16,5 +16,123 @@
   },
   "footer": {
     "copyright": "Todos os direitos reservados"
+  },
+  "portfolio": {
+    "title": "Wendell Bitencourt - Engenheiro de Software",
+    "subtitle": "Engenheiro de Software",
+    "about": {
+      "title": "Sobre",
+      "description": "Motivado por desafios tecnológicos, me sinto mais curioso, mais criativo e pronto para planejar e construir boas soluções."
+    },
+    "skills": {
+      "title": "Habilidades"
+    },
+    "education": {
+      "title": "Formação",
+      "unip": {
+        "institution": "Universidade Paulista UNIP",
+        "degree": "Bacharelado em Ciência da Computação",
+        "period": "2018 - 2020"
+      },
+      "rocketseat": {
+        "institution": "Rocketseat",
+        "degree": "Rocketseat One",
+        "period": "2021 - presente"
+      },
+      "anchieta": {
+        "institution": "Colégio Anchieta",
+        "degree": "Curso Técnico em Eletrônica",
+        "period": "2013 - 2016"
+      },
+      "wizard": {
+        "institution": "Wizard",
+        "degree": "Curso de Inglês",
+        "period": "Atualmente retomando estudos em nível intermediário (B1) | 2025 - presente",
+        "additional": "Concluído nível iniciante e parte do intermediário | 2013 - 2015"
+      }
+    },
+    "languages": {
+      "title": "Idiomas",
+      "english": "Inglês",
+      "portuguese": "Português",
+      "levels": {
+        "intermediate": "Intermediário B1",
+        "native": "Nativo"
+      }
+    },
+    "experience": {
+      "title": "Experiência",
+      "oito_mid": {
+        "company": "Oito Tecnologia Jurídica",
+        "period": "2023 - Presente",
+        "role": "Engenheiro de Software Pleno",
+        "description": [
+          "Liderei arquitetura e desenvolvimento de projetos usando tecnologias adequadas.",
+          "Trabalhei com o PO para analisar requisitos com foco na qualidade e no cliente.",
+          "Contribuí para automação de fluxos de logs em plataforma SaaS, reduzindo tempo de verificação.",
+          "Mantive e refatorei sistemas core, sempre visando altos padrões de qualidade."
+        ]
+      },
+      "oito_junior": {
+        "company": "Oito Tecnologia Jurídica",
+        "period": "2022 - 2023",
+        "role": "Engenheiro de Software Júnior",
+        "description": [
+          "Criei e encadeei processos, especificações no S3 a partir de payloads, usei containers para compartilhamento de dados enriquecidos.",
+          "Configurei AWS Lambda para envio e autorização escalável em processos internos.",
+          "Configurei AWS SES para enviar e receber emails em projeto da empresa."
+        ]
+      },
+      "vinhanet_analyst": {
+        "company": "VinhaNet Informática Ltda",
+        "period": "2020 - 2022",
+        "role": "Analista Programador Júnior",
+        "description": [
+          "Trabalhei na manutenção e refatoração de sistemas para manter altos padrões de qualidade.",
+          "Trabalhei na integração com sistemas SEFAZ usando Web Services para comunicação fiscal.",
+          "Publiquei o sistema no ambiente de desenvolvimento e preparei arquivos para produção.",
+          "Criei e compartilhei relatórios técnicos sobre novas funcionalidades com equipes de suporte e vendas.",
+          "Organizei tarefas e entregas usando método ágil com Trello (Kanban)."
+        ]
+      },
+      "vinhanet_trainee": {
+        "company": "VinhaNet Informática Ltda",
+        "period": "2019 - 2020",
+        "role": "Estagiário em Desenvolvimento de Sistemas",
+        "description": [
+          "Refatorei e melhorei funcionalidades de ERP em nuvem, mantendo código limpo e escalável.",
+          "Desenvolvi e mantive SQL (consultas, procedimentos, views) em sistema legado com SQL Server.",
+          "Refatorei relatórios RDLC no ReportViewer para melhorar performance e visualização.",
+          "Prestei suporte técnico e assistência a usuários finais."
+        ]
+      }
+    },
+    "projects": {
+      "title": "Projetos",
+      "npm_package": {
+        "name": "Npm package wbitencourt",
+        "year": "2025",
+        "description": "Monorepo pessoal com ferramentas NPM (CLI e biblioteca utilitária) construída para melhorar fluxo de trabalho e aprendizado em TypeScript.",
+        "link": "Ver projeto"
+      },
+      "with_love": {
+        "name": "With love",
+        "year": "2025",
+        "description": "Um web app interativo e personalizado feito para uma ocasião especial, com slideshow de fotos, informações do relacionamento, player de música e animações.",
+        "link": "Ver projeto"
+      },
+      "bluetooth_car": {
+        "name": "Bluetooth solar RC car",
+        "year": "2021",
+        "description": "Carrinho RC solar controlado por Bluetooth. Projeto focado em otimização de energia e eletrônica.",
+        "link": "Ver projeto"
+      }
+    },
+    "contact": {
+      "location": "São Bernardo do Campo - SP, Brasil"
+    },
+    "footer": {
+      "built_with": "Desenvolvido com Next.js e Tailwind CSS"
+    }
   }
 }
