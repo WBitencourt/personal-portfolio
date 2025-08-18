@@ -15,8 +15,13 @@ export const metadata: Metadata = {
   description: "Portfolio profissional de Wendell Bitencourt - Software Engineer",
 };
 
+export const revalidate = 3600;
+
 export default async function Home() {
-  const user = await fetch('https://api.github.com/users/wbitencourt');
+  const user = await fetch('https://api.github.com/users/wbitencourt', {
+    next: { revalidate }
+  });
+
   const userData = await user.json();
 
   const t = await getTranslations('portfolio');
@@ -363,7 +368,7 @@ export default async function Home() {
                     </span>
                   </div>
                   <a
-                    href="https://github.com/wbitencourt"
+                    href="https://www.npmjs.com/package/wbitencourt"
                     className="text-blue-600 hover:text-blue-800 dark:text-gray-300 dark:hover:text-white text-sm transition-colors"
                   >
                     🔗 {t('projects.npm_package.link')}
@@ -392,7 +397,7 @@ export default async function Home() {
                     </span>
                   </div>
                   <a
-                    href="https://github.com/wbitencourt"
+                    href="https://withlove.wbitencourt.dev"
                     className="text-blue-600 hover:text-blue-800 dark:text-gray-300 dark:hover:text-white text-sm transition-colors"
                   >
                     🔗 {t('projects.with_love.link')}
