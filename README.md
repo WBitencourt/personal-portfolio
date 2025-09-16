@@ -1,8 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Personal Portfolio
 
-## Getting Started
+This portfolio shows my main skills, work experience, academic studies, completed projects and projects in progress.
 
-First, run the development server:
+<br/>
+
+## ✨ Features
+
+- 🎨 **Modern Design**: Clean and professional interface with Tailwind CSS
+- 🌍 **Internationalization**: Support for multiple languages with next-intl
+- 🌙 **Dark/Light Theme**: Switch between viewing modes
+- 📱 **Fully Responsive**: Optimized for all devices
+- ⚡ **Performance**: Built with Next.js 15 and Turbopack
+- 🎯 **Accessibility**: Accessible components with Radix UI
+- 🔧 **TypeScript**: Static typing for better reliability
+- 🎭 **Animations**: Smooth transitions and micro-interactions
+
+<br/>
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+- **Next.js 15** - React framework with App Router
+- **React 19** - User interface library
+- **TypeScript** - Typed JavaScript superset
+- **Tailwind CSS 4** - Utility CSS framework
+- **Radix UI** - Accessible and unstyled components
+
+### Features
+
+- **next-intl** - Internationalization
+- **Zustand** - State management
+- **Lucide React** - Modern icons
+- **Phosphor Icons** - Additional icon library
+
+### Development Tools
+
+- **ESLint** - Code linting
+- **PostCSS** - CSS processing
+- **Turbopack** - Ultra-fast bundler
+
+<br/>
+
+## 🚀 How to Run
+
+### Prerequisites
+
+- Node.js 18+
+- npm, yarn, pnpm or bun
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/wbitencourt/personal-portfolio.git
+cd personal-portfolio
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +80,81 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<br/>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```
+src/
+├── app/                    # Next.js App Router
+│   ├── [locale]/          # Internationalized routes
+│   ├── globals.css        # Global styles
+│   ├── layout.tsx         # Root layout
+│   ├── Header.tsx         # Header component
+│   └── Footer.tsx         # Footer component
+├── components/            # Reusable components
+│   ├── font-size-control/ # Font size control
+│   ├── shadcn/           # Base components
+│   ├── tech-card/        # Technology card
+│   ├── toggle-theme/     # Theme switcher
+│   └── tooltip/          # Tooltip component
+├── i18n/                 # Internationalization config
+├── utils/                # Utilities
+└── zustand-store/        # Zustand stores
+```
 
-To learn more about Next.js, take a look at the following resources:
+<br/>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Main Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🌍 Internationalization
 
-## Deploy on Vercel
+- Support for multiple languages
+- Locale-based routing
+- Dynamic translations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🎭 Theme System
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Light and dark mode
+- Preference persistence
+- Smooth transitions
+
+### 📱 Responsiveness
+
+- Mobile-first design
+- Optimized breakpoints
+- Adaptive components
+
+### ⚡ Performance
+
+- Image optimization
+- Lazy loading
+- Automatic bundle splitting
+
+<br/>
+
+## 🚀 Deploy: Vercel (Recommended)
+
+```bash
+npm run build
+```
+
+The project is optimized for Vercel deployment. Simply connect your repository and deploy.
+
+<br/>
+
+## 📞 Contact
+
+**Wendell Bitencourt**
+
+- GitHub: [@wbitencourt](https://github.com/wbitencourt)
+- LinkedIn: [Wendell Bitencourt](https://linkedin.com/in/wendell-bitencourt)
+- Email: [wendell.gbitencourt@gmail.com](mailto:wendell.gbitencourt@gmail.com)
+
+<br/>
+
+## 📄 License
+
+This project is under the MIT license. See the [LICENSE](LICENSE) file for more details.
