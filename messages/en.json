@@ -46,7 +46,10 @@
           {"name": "Git", "icon": "git.svg", "url": "https://git-scm.com/"},
           {"name": "CSS3", "icon": "css3.svg", "url": "https://www.w3.org/Style/CSS/Overview.en.html"},
           {"name": "Vitest", "icon": "vitest.svg", "url": "https://vitest.dev"},
-          {"name": "Prisma", "icon": "prisma.svg", "url": "https://www.prisma.io/"}
+          {"name": "Prisma", "icon": "prisma.svg", "url": "https://www.prisma.io/"},
+          {"name": "Linux", "icon": "linux.svg", "url": "https://www.linuxfoundation.org/"},
+          {"name": "Ubuntu", "icon": "ubuntu.svg", "url": "https://ubuntu.com/"},
+          {"name": "Raspberry Pi", "icon": "raspberry-pi.svg", "url": "https://www.raspberrypi.org/"}
         ]
       },
       "worked_with": {
