@@ -48,8 +48,7 @@
           {"name": "Vitest", "icon": "vitest.svg", "url": "https://vitest.dev"},
           {"name": "Prisma", "icon": "prisma.svg", "url": "https://www.prisma.io/"},
           {"name": "Linux", "icon": "linux.svg", "url": "https://www.linuxfoundation.org/"},
-          {"name": "Ubuntu", "icon": "ubuntu.svg", "url": "https://ubuntu.com/"},
-          {"name": "Raspberry Pi", "icon": "raspberry-pi.svg", "url": "https://www.raspberrypi.org/"}
+          {"name": "Ubuntu", "icon": "ubuntu.svg", "url": "https://ubuntu.com/"}
         ]
       },
       "worked_with": {
@@ -57,7 +56,8 @@
         "techs": [
           {"name": "C#", "icon": "csharp.svg", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"},
           {"name": "SQL Server", "icon": "sqlserver.svg", "url": "https://www.microsoft.com/en-us/sql-server/"},
-          {"name": "Bootstrap", "icon": "bootstrap.svg", "url": "https://getbootstrap.com/"}
+          {"name": "Bootstrap", "icon": "bootstrap.svg", "url": "https://getbootstrap.com/"},
+          {"name": "Raspberry Pi", "icon": "raspberry-pi.svg", "url": "https://www.raspberrypi.org/"}
         ]
       },
       "studying": {
