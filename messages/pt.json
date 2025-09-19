@@ -88,7 +88,7 @@
         "title": "Estou estudando",
         "techs": [
           {"name": "Python", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/python.svg", "url": "https://www.python.org/"},
-          {"name": "IA", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/ia.svg", "url": "https://app.rocketseat.com.br/journey/inteligencia-artificial/contents"},
+          {"name": "IA", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/ia.svg", "url": "https://app.rocketseat.com.br/journey/machine-learning-em-inteligencia-artificial/contents"},
           {"name": "MongoDB", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/mongodb.svg", "url": "https://www.mongodb.com/"}
         ]
       },
