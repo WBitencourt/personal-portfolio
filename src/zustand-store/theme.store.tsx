@@ -39,7 +39,7 @@ const startThemeStore = (get: Get, set: Set) => () => {
       return;
     }
 
-    const theme: Theme = 'dark';
+    const theme: Theme = 'light';
 
     set({ theme });  
     updateDOMTheme(theme)

@@ -5,14 +5,16 @@ import {
   TooltipProvider, 
   TooltipTrigger 
 } from "@/components/shadcn/tooltip";
+import { cn } from "@/utils/classname";
 
 interface TechCardProps {
   name: string;
-  icon: string;
+  src: string;
   url: string;
+  className?: string;
 }
 
-export function TechCard({ name, icon, url }: TechCardProps) {
+export function TechCard({ name, src, url, className }: TechCardProps) {
   return (
     <TooltipProvider>
       <Tooltip>
@@ -21,9 +23,10 @@ export function TechCard({ name, icon, url }: TechCardProps) {
             href={url} 
             target="_blank" 
             rel="noopener noreferrer"
+            className={cn('', className)}
           >
             <Image
-              src={`/icons/${icon}`}
+              src={src}
               alt={name}
               width={40}
               height={40}

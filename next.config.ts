@@ -3,6 +3,7 @@ import createNextIntlPlugin from 'next-intl/plugin';
 
 const hostnames = [
   'avatars.githubusercontent.com',
+  'raw.githubusercontent.com',
 ];
 
 const nextConfig: NextConfig = {
@@ -12,7 +13,7 @@ const nextConfig: NextConfig = {
       hostname,
     })),
   },
-  allowedDevOrigins: ['localhost.com', '*.localhost.com'],
+  allowedDevOrigins: ['localhost.com', '*.localhost.com',],
 };
 
 const withNextIntl = createNextIntlPlugin();

@@ -97,18 +97,73 @@ export default async function Home() {
               </h2>
               
               <div className="space-y-6">
-                {/* Experience */}
+                {/* General */}
                 <div>
                   <h3 className="text-lg font-semibold text-slate-500 dark:text-gray-400 mb-3">
-                    {t('skills.experience.title')}
+                    {t('skills.general.title')}
                   </h3>
-                  <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 gap-3">
-                    {(t.raw('skills.experience.techs') as Array<{name: string, icon: string, url: string}>).map((tech, index) => (
+                  <div className="grid grid- grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                    {(t.raw('skills.general.techs') as Array<{name: string, src: string, url: string}>).map((tech, index) => (
                       <TechCard
                         key={index}
                         name={tech.name}
-                        icon={tech.icon}
+                        src={tech.src}
                         url={tech.url}
+                        className="py-2"
+                      />
+                    ))}
+                  </div>
+                </div>
+
+                {/* Frontend */}
+                <div>
+                  <h3 className="text-lg font-semibold text-slate-500 dark:text-gray-400 mb-3">
+                    {t('skills.frontend.title')}
+                  </h3>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                    {(t.raw('skills.frontend.techs') as Array<{name: string, src: string, url: string}>).map((tech, index) => (
+                      <TechCard
+                        key={index}
+                        name={tech.name}
+                        src={tech.src}
+                        url={tech.url}
+                        className="py-2"
+                      />
+                    ))}
+                  </div>
+                </div>
+
+                {/* Backend/DevOps */}
+                <div>
+                  <h3 className="text-lg font-semibold text-slate-500 dark:text-gray-400 mb-3">
+                    {t('skills.backend_devops.title')}
+                  </h3>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                    {(t.raw('skills.backend_devops.techs') as Array<{name: string, src: string, url: string}>).map((tech, index) => (
+                      <TechCard
+                        key={index}
+                        name={tech.name}
+                        src={tech.src}
+                        url={tech.url}
+                        className="py-2"
+                      />
+                    ))}
+                  </div>
+                </div>
+
+                {/* AWS */}
+                <div>
+                  <h3 className="text-lg font-semibold text-slate-500 dark:text-gray-400 mb-3">
+                    {t('skills.aws.title')}
+                  </h3>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                    {(t.raw('skills.aws.techs') as Array<{name: string, src: string, url: string}>).map((tech, index) => (
+                      <TechCard
+                        key={index}
+                        name={tech.name}
+                        src={tech.src}
+                        url={tech.url}
+                        className="py-2"
                       />
                     ))}
                   </div>
@@ -119,13 +174,14 @@ export default async function Home() {
                   <h3 className="text-lg font-semibold text-slate-500 dark:text-gray-400 mb-3">
                     {t('skills.worked_with.title')}
                   </h3>
-                  <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 gap-3">
-                    {(t.raw('skills.worked_with.techs') as Array<{name: string, icon: string, url: string}>).map((tech, index) => (
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                    {(t.raw('skills.worked_with.techs') as Array<{name: string, src: string, url: string}>).map((tech, index) => (
                       <TechCard
                         key={index}
                         name={tech.name}
-                        icon={tech.icon}
+                        src={tech.src}
                         url={tech.url}
+                        className="py-2"
                       />
                     ))}
                   </div>
@@ -136,13 +192,14 @@ export default async function Home() {
                   <h3 className="text-lg font-semibold text-slate-500 dark:text-gray-400 mb-3">
                     {t('skills.studying.title')}
                   </h3>
-                  <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 gap-3">
-                    {(t.raw('skills.studying.techs') as Array<{name: string, icon: string, url: string}>).map((tech, index) => (
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                    {(t.raw('skills.studying.techs') as Array<{name: string, src: string, url: string}>).map((tech, index) => (
                       <TechCard
                         key={index}
                         name={tech.name}
-                        icon={tech.icon}
+                        src={tech.src}
                         url={tech.url}
+                        className="py-2"
                       />
                     ))}
                   </div>
@@ -153,13 +210,14 @@ export default async function Home() {
                   <h3 className="text-lg font-semibold text-slate-500 dark:text-gray-400 mb-3">
                     {t('skills.interested.title')}
                   </h3>
-                  <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 gap-3">
-                    {(t.raw('skills.interested.techs') as Array<{name: string, icon: string, url: string}>).map((tech, index) => (
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                    {(t.raw('skills.interested.techs') as Array<{name: string, src: string, url: string}>).map((tech, index) => (
                       <TechCard
                         key={index}
                         name={tech.name}
-                        icon={tech.icon}
+                        src={tech.src}
                         url={tech.url}
+                        className="py-2"
                       />
                     ))}
                   </div>

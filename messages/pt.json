@@ -26,55 +26,78 @@
     },
     "skills": {
       "title": "Principais linguagens e ferramentas",
-      "experience": {
-        "title": "Tenho experiência",
+      "general": {
+        "title": "Geral",
         "techs": [
-          {"name": "JavaScript", "icon": "javascript.svg", "url": "https://www.javascript.com/"},
-          {"name": "React", "icon": "react.svg", "url": "https://reactjs.org/"},
-          {"name": "Tailwind", "icon": "tailwind.svg", "url": "https://tailwindcss.com/"},
-          {"name": "AWS", "icon": "aws.svg", "url": "https://aws.amazon.com/"},
-          {"name": "Node.js", "icon": "nodejs.svg", "url": "https://nodejs.org/en/"},
-          {"name": "TypeScript", "icon": "typescript.svg", "url": "https://www.typescriptlang.org/"},
-          {"name": "Next.js", "icon": "nextjs.svg", "url": "https://nextjs.org/"},
-          {"name": "Zustand", "icon": "zustand.png", "url": "https://zustand-demo.pmnd.rs/"},
-          {"name": "Docker", "icon": "docker.svg", "url": "https://www.docker.com/"},
-          {"name": "Nest.js", "icon": "nestjs.svg", "url": "https://nestjs.com/"},
-          {"name": "HTML5", "icon": "html5.svg", "url": "https://www.w3.org/html/"},
-          {"name": "Playwright", "icon": "playwright.svg", "url": "https://playwright.dev"},
-          {"name": "Storybook", "icon": "storybook.svg", "url": "https://storybook.js.org/"},
-          {"name": "PostgreSQL", "icon": "postgresql.svg", "url": "https://www.postgresql.org/"},
-          {"name": "Git", "icon": "git.svg", "url": "https://git-scm.com/"},
-          {"name": "CSS3", "icon": "css3.svg", "url": "https://www.w3.org/Style/CSS/Overview.en.html"},
-          {"name": "Vitest", "icon": "vitest.svg", "url": "https://vitest.dev"},
-          {"name": "Prisma", "icon": "prisma.svg", "url": "https://www.prisma.io/"},
-          {"name": "Linux", "icon": "linux.svg", "url": "https://www.linuxfoundation.org/"},
-          {"name": "Ubuntu", "icon": "ubuntu.svg", "url": "https://ubuntu.com/"}
-
+          {"name": "JavaScript", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/javascript.svg", "url": "https://www.javascript.com/"},
+          {"name": "TypeScript", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/typescript.svg", "url": "https://www.typescriptlang.org/"},
+          {"name": "Node.js", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/nodejs.svg", "url": "https://nodejs.org/en/"},
+          {"name": "Git", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/git.svg", "url": "https://git-scm.com/"},
+          {"name": "Linux", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/linux.svg", "url": "https://www.linuxfoundation.org/"},
+          {"name": "Ubuntu", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/ubuntu.svg", "url": "https://ubuntu.com/"},
+          {"name": "Raspberry Pi", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/raspberry-pi.svg", "url": "https://www.raspberrypi.org/"},
+          {"name": "Arduino", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/arduino.svg", "url": "https://www.arduino.cc/"},
+          {"name": "Vitest", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/vitest.svg", "url": "https://vitest.dev"}
+        ]
+      },
+      "frontend": {
+        "title": "Frontend",
+        "techs": [
+          {"name": "React", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/react.svg", "url": "https://reactjs.org/"},
+          {"name": "Next.js", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/nextjs.svg", "url": "https://nextjs.org/"},
+          {"name": "Tailwind", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/tailwind.svg", "url": "https://tailwindcss.com/"},
+          {"name": "Zustand", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/zustand.png", "url": "https://zustand-demo.pmnd.rs/"},
+          {"name": "HTML5", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/html5.svg", "url": "https://www.w3.org/html/"},
+          {"name": "CSS3", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/css3.svg", "url": "https://www.w3.org/Style/CSS/Overview.en.html"},
+          {"name": "Storybook", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/storybook.svg", "url": "https://storybook.js.org/"},
+          {"name": "Playwright", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/playwright.svg", "url": "https://playwright.dev"}
+        ]
+      },
+      "backend_devops": {
+        "title": "Backend/DevOps",
+        "techs": [
+          {"name": "Nest.js", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/nestjs.svg", "url": "https://nestjs.com/"},
+          {"name": "Prisma", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/prisma.svg", "url": "https://www.prisma.io/"},
+          {"name": "PostgreSQL", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/postgresql.svg", "url": "https://www.postgresql.org/"},
+          {"name": "Docker", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/docker.svg", "url": "https://www.docker.com/"},
+          {"name": "AWS", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/aws.svg", "url": "https://aws.amazon.com/"}
+        ]
+      },
+      "aws": {
+        "title": "AWS",
+        "techs": [
+          {"name": "DynamoDB", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/dynamodb.svg", "url": "https://aws.amazon.com/dynamodb/"},
+          {"name": "S3", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/s3.svg", "url": "https://aws.amazon.com/s3/"},
+          {"name": "Lambda", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/lambda.svg", "url": "https://aws.amazon.com/lambda/"},
+          {"name": "SES", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/ses.svg", "url": "https://aws.amazon.com/ses/"},
+          {"name": "SQS", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/sqs.svg", "url": "https://aws.amazon.com/sqs/"},
+          {"name": "SNS", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/sns.svg", "url": "https://aws.amazon.com/sns/"},
+          {"name": "Cognito", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/cognito.svg", "url": "https://aws.amazon.com/cognito/"},
+          {"name": "CloudWatch", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/cloud-watch.svg", "url": "https://aws.amazon.com/cloudwatch/"}
         ]
       },
       "worked_with": {
         "title": "Já trabalhei com",
         "techs": [
-          {"name": "C#", "icon": "csharp.svg", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"},
-          {"name": "SQL Server", "icon": "sqlserver.svg", "url": "https://www.microsoft.com/en-us/sql-server/"},
-          {"name": "Bootstrap", "icon": "bootstrap.svg", "url": "https://getbootstrap.com/"},
-          {"name": "Raspberry Pi", "icon": "raspberry-pi.svg", "url": "https://www.raspberrypi.org/"}
+          {"name": "C#", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/csharp.svg", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"},
+          {"name": "SQL Server", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/sqlserver.svg", "url": "https://www.microsoft.com/en-us/sql-server/"},
+          {"name": "Bootstrap", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/bootstrap.svg", "url": "https://getbootstrap.com/"}
         ]
       },
       "studying": {
         "title": "Estou estudando",
         "techs": [
-          {"name": "Python", "icon": "python.svg", "url": "https://www.python.org/"},
-          {"name": "IA", "icon": "ia.svg", "url": "https://app.rocketseat.com.br/journey/inteligencia-artificial/contents"},
-          {"name": "MongoDB", "icon": "mongodb.svg", "url": "https://www.mongodb.com/"}
+          {"name": "Python", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/python.svg", "url": "https://www.python.org/"},
+          {"name": "IA", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/ia.svg", "url": "https://app.rocketseat.com.br/journey/inteligencia-artificial/contents"},
+          {"name": "MongoDB", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/mongodb.svg", "url": "https://www.mongodb.com/"}
         ]
       },
       "interested": {
         "title": "Tenho interesse",
         "techs": [
-          {"name": "GraphQL", "icon": "graphql.svg", "url": "https://graphql.org/"},
-          {"name": "Expo", "icon": "expo.svg", "url": "https://expo.dev"},
-          {"name": "React Native", "icon": "reactnative.svg", "url": "https://reactnative.dev/"}
+          {"name": "GraphQL", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/graphql.svg", "url": "https://graphql.org/"},
+          {"name": "Expo", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/expo.svg", "url": "https://expo.dev"},
+          {"name": "React", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/react.svg", "url": "https://reactjs.org/"}
         ]
       }
     },
