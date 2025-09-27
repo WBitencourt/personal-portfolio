@@ -50,7 +50,9 @@
           {"name": "HTML5", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/html5.svg", "url": "https://www.w3.org/html/"},
           {"name": "CSS3", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/css3.svg", "url": "https://www.w3.org/Style/CSS/Overview.en.html"},
           {"name": "Storybook", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/storybook.svg", "url": "https://storybook.js.org/"},
-          {"name": "Playwright", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/playwright.svg", "url": "https://playwright.dev"}
+          {"name": "Playwright", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/playwright.svg", "url": "https://playwright.dev"},
+          {"name": "Vite", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/vite.svg", "url": "https://vite.dev/"},
+          {"name": "React/Tanstack Query", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/react-query.svg", "url": "https://tanstack.com/query/latest"}
         ]
       },
       "backend_devops": {
@@ -58,9 +60,13 @@
         "techs": [
           {"name": "Nest.js", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/nestjs.svg", "url": "https://nestjs.com/"},
           {"name": "Prisma", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/prisma.svg", "url": "https://www.prisma.io/"},
+          {"name": "Type ORM", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/type-orm.svg", "url": "https://typeorm.io/"},
+          {"name": "AWS", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/aws.svg", "url": "https://aws.amazon.com/"},
           {"name": "PostgreSQL", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/postgresql.svg", "url": "https://www.postgresql.org/"},
           {"name": "Docker", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/docker.svg", "url": "https://www.docker.com/"},
-          {"name": "AWS", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/aws.svg", "url": "https://aws.amazon.com/"}
+          {"name": "Express.js", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/express.svg", "url": "https://expressjs.com/"},
+          {"name": "Fastify", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/fastify2.svg", "url": "https://www.fastify.dev/"}
+
         ]
       },
       "aws": {
@@ -88,8 +94,10 @@
         "title": "Estou estudando",
         "techs": [
           {"name": "Python", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/python.svg", "url": "https://www.python.org/"},
+          {"name": "Fast API", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/fastapi.svg", "url": "https://fastapi.tiangolo.com/"},
           {"name": "IA", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/ia.svg", "url": "https://app.rocketseat.com.br/journey/machine-learning-em-inteligencia-artificial/contents"},
-          {"name": "MongoDB", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/mongodb.svg", "url": "https://www.mongodb.com/"}
+          {"name": "MongoDB", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/mongodb.svg", "url": "https://www.mongodb.com/"},
+          {"name": "Redis", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/redis.svg", "url": "https://redis.io/"}
         ]
       },
       "interested": {
