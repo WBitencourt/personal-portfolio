@@ -81,13 +81,19 @@ export default async function Home() {
           {/* Left Column */}
           <div className="lg:col-span-1 space-y-8">
             {/* About */}
-            <section className="bg-white dark:bg-gray-900 rounded-xl p-6 shadow-lg">
-              <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
+            <section className="flex flex-col gap-6 bg-white dark:bg-gray-900 rounded-xl p-6 shadow-lg">
+              <h2 className="text-2xl font-bold text-slate-900 dark:text-white">
                 {t('about.title')}
               </h2>
-              <p className="text-slate-600 dark:text-gray-300 leading-relaxed">
+              <p className="text-slate-600 dark:text-gray-300 leading-relaxed text-base">
                 {t('about.description')}
               </p>
+              <p className="text-slate-600 dark:text-gray-300 leading-relaxed text-base">
+                {t('about.description2')}
+              </p>
+              {/* <p className="text-slate-600 dark:text-gray-300 leading-relaxed text-base">
+                {t('about.description3')}
+              </p> */}
             </section>
 
             {/* Skills */}

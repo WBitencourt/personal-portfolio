@@ -22,12 +22,14 @@
     "subtitle": "Software Engineer",
     "about": {
       "title": "About",
-      "description": "Motivated by technology challenges, I feel more curious, more creative and ready to plan and build good solutions."
+      "description": "Software engineer with a degree in Computer Science.",
+      "description2": "Since 2019 I have been working professionally in the technology area.",
+      "description3": "Motivated by technology challenges, I feel more curious, more creative and ready to plan and build good solutions."
     },
     "skills": {
-      "title": "Principais linguagens e ferramentas",
+      "title": "Main languages and tools",
       "general": {
-        "title": "Geral",
+        "title": "General",
         "techs": [
           {"name": "JavaScript", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/javascript.svg", "url": "https://www.javascript.com/"},
           {"name": "TypeScript", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/typescript.svg", "url": "https://www.typescriptlang.org/"},
@@ -83,7 +85,7 @@
         ]
       },
       "worked_with": {
-        "title": "Já trabalhei com",
+        "title": "I worked with",
         "techs": [
           {"name": "C#", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/csharp.svg", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"},
           {"name": "SQL Server", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/sqlserver.svg", "url": "https://www.microsoft.com/en-us/sql-server/"},
@@ -91,7 +93,7 @@
         ]
       },
       "studying": {
-        "title": "Estou estudando",
+        "title": "I am studying",
         "techs": [
           {"name": "Python", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/python.svg", "url": "https://www.python.org/"},
           {"name": "Fast API", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/fastapi.svg", "url": "https://fastapi.tiangolo.com/"},
@@ -101,7 +103,7 @@
         ]
       },
       "interested": {
-        "title": "Tenho interesse",
+        "title": "I am interested",
         "techs": [
           {"name": "GraphQL", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/graphql.svg", "url": "https://graphql.org/"},
           {"name": "Expo", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/expo.svg", "url": "https://expo.dev"},
