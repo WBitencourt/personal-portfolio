@@ -17,6 +17,22 @@ export const metadata: Metadata = {
 
 export const revalidate = 3600;
 
+const PROJECTS: Array<{
+  id: string;
+  year: number;
+  href: string;
+  imgSrc: string;
+  imgAlt: string;
+  tags: string[];
+}> = [
+  { id: 'npm_package', year: 2025, href: 'https://www.npmjs.com/package/wbitencourt', imgSrc: 'https://github.com/user-attachments/assets/a1eb1a07-d406-446e-b017-50fd4be36df4', imgAlt: 'npm-wbitencourt', tags: ['TypeScript', 'Node.js'] },
+  { id: 'claw_pi_docker', year: 2026, href: 'https://github.com/WBitencourt/claw-pi-docker', imgSrc: 'https://raw.githubusercontent.com/WBitencourt/claw-pi-docker/main/assets/claw-pi-docker-logo.png', imgAlt: 'claw-pi-docker', tags: ['Docker', 'Raspberry Pi'] },
+  { id: 'shelf_play', year: 2026, href: 'https://github.com/WBitencourt/shelf-play-front-end', imgSrc: 'https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/shelf-play-logo.png', imgAlt: 'shelf-play', tags: ['React', 'Next.js'] },
+  { id: 'with_love', year: 2025, href: 'https://withlove.wbitencourt.dev', imgSrc: 'https://github.com/user-attachments/assets/adee83dd-cec1-4cc5-ad19-ee9023bc3f9f', imgAlt: 'with-love', tags: ['React', 'TypeScript'] },
+  { id: 'giulice_js', year: 2025, href: 'https://github.com/WBitencourt/giulice.js', imgSrc: 'https://github.com/user-attachments/assets/d002ccf7-b914-4cdb-9329-f98ff30b55d8', imgAlt: 'giulice.js', tags: ['React', 'TypeScript'] },
+  { id: 'bluetooth_car', year: 2021, href: 'https://github.com/wbitencourt/bluetooth-solar-rc-car', imgSrc: 'https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/RemoteCar_bluetooth3.gif', imgAlt: 'bluetooth-solar-rc-car', tags: ['Arduino', 'Electronics'] },
+].sort((a, b) => b.year - a.year);
+
 export default async function Home() {
   const user = await fetch('https://api.github.com/users/wbitencourt', {
     next: { revalidate }
@@ -410,92 +426,48 @@ export default async function Home() {
                 {t('projects.title')}
               </h2>
               <div className="grid gap-6 sm:grid-cols-1 lg:grid-cols-1">
-                {/* NPM Package */}
-                <div className="border border-slate-200 dark:border-gray-700 rounded-lg p-4">
-                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-3">
-                    <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
-                      {t('projects.npm_package.name')}
-                    </h3>
-                    <span className="text-slate-500 dark:text-gray-400 text-sm">
-                      {t('projects.npm_package.year')}
-                    </span>
+                {PROJECTS.map((project) => (
+                  <div key={project.id} className="border border-slate-200 dark:border-gray-700 rounded-lg p-4 flex flex-col sm:flex-row gap-4">
+                    <a
+                      href={project.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="shrink-0 w-40 h-28 rounded-lg overflow-hidden bg-slate-100 dark:bg-gray-800 flex items-center justify-center"
+                    >
+                      <img
+                        src={project.imgSrc}
+                        alt={project.imgAlt}
+                        className="w-full h-full object-contain"
+                      />
+                    </a>
+                    <div className="min-w-0 flex-1 flex flex-col">
+                      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2 gap-1">
+                        <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
+                          {t(`projects.${project.id}.name`)}
+                        </h3>
+                        <span className="text-slate-500 dark:text-gray-400 text-sm shrink-0">
+                          {t(`projects.${project.id}.year`)}
+                        </span>
+                      </div>
+                      <p className="text-slate-600 dark:text-gray-300 text-sm mb-3">
+                        {t(`projects.${project.id}.description`)}
+                      </p>
+                      <div className="flex flex-wrap gap-2 mb-3">
+                        {project.tags.map((tag) => (
+                          <span key={tag} className="px-2 py-1 bg-slate-100 dark:bg-gray-700 text-slate-600 dark:text-gray-300 rounded text-xs">
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                      <a
+                        href={project.href}
+                        className="text-blue-600 hover:text-blue-800 dark:text-gray-300 dark:hover:text-white text-sm transition-colors mt-auto"
+                      >
+                        🔗 {t(`projects.${project.id}.link`)}
+                      </a>
+                    </div>
                   </div>
-                  <p className="text-slate-600 dark:text-gray-300 text-sm mb-3">
-                    {t('projects.npm_package.description')}
-                  </p>
-                  <div className="flex flex-wrap gap-2 mb-3">
-                    <span className="px-2 py-1 bg-slate-100 dark:bg-gray-700 text-slate-600 dark:text-gray-300 rounded text-xs">
-                      TypeScript
-                    </span>
-                    <span className="px-2 py-1 bg-slate-100 dark:bg-gray-700 text-slate-600 dark:text-gray-300 rounded text-xs">
-                      Node.js
-                    </span>
-                  </div>
-                  <a
-                    href="https://www.npmjs.com/package/wbitencourt"
-                    className="text-blue-600 hover:text-blue-800 dark:text-gray-300 dark:hover:text-white text-sm transition-colors"
-                  >
-                    🔗 {t('projects.npm_package.link')}
-                  </a>
-                </div>
-
-                {/* With Love */}
-                <div className="border border-slate-200 dark:border-gray-700 rounded-lg p-4">
-                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-3">
-                    <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
-                      {t('projects.with_love.name')}
-                    </h3>
-                    <span className="text-slate-500 dark:text-gray-400 text-sm">
-                      {t('projects.with_love.year')}
-                    </span>
-                  </div>
-                  <p className="text-slate-600 dark:text-gray-300 text-sm mb-3">
-                    {t('projects.with_love.description')}
-                  </p>
-                  <div className="flex flex-wrap gap-2 mb-3">
-                    <span className="px-2 py-1 bg-slate-100 dark:bg-gray-700 text-slate-600 dark:text-gray-300 rounded text-xs">
-                      React
-                    </span>
-                    <span className="px-2 py-1 bg-slate-100 dark:bg-gray-700 text-slate-600 dark:text-gray-300 rounded text-xs">
-                      TypeScript
-                    </span>
-                  </div>
-                  <a
-                    href="https://withlove.wbitencourt.dev"
-                    className="text-blue-600 hover:text-blue-800 dark:text-gray-300 dark:hover:text-white text-sm transition-colors"
-                  >
-                    🔗 {t('projects.with_love.link')}
-                  </a>
-                </div>
-
-                {/* Bluetooth Car */}
-                <div className="border border-slate-200 dark:border-gray-700 rounded-lg p-4">
-                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-3">
-                    <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
-                      {t('projects.bluetooth_car.name')}
-                    </h3>
-                    <span className="text-slate-500 dark:text-gray-400 text-sm">
-                      {t('projects.bluetooth_car.year')}
-                    </span>
-                  </div>
-                  <p className="text-slate-600 dark:text-gray-300 text-sm mb-3">
-                    {t('projects.bluetooth_car.description')}
-                  </p>
-                  <div className="flex flex-wrap gap-2 mb-3">
-                    <span className="px-2 py-1 bg-slate-100 dark:bg-gray-700 text-slate-600 dark:text-gray-300 rounded text-xs">
-                      Arduino
-                    </span>
-                    <span className="px-2 py-1 bg-slate-100 dark:bg-gray-700 text-slate-600 dark:text-gray-300 rounded text-xs">
-                      Electronics
-                    </span>
-                  </div>
-                  <a
-                    href="https://github.com/wbitencourt/bluetooth-solar-rc-car"
-                    className="text-blue-600 hover:text-blue-800 dark:text-gray-300 dark:hover:text-white text-sm transition-colors"
-                  >
-                    🔗 {t('projects.bluetooth_car.link')}
-                  </a>
-                </div>
+                ))}
               </div>
             </section>
           </div>

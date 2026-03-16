@@ -194,21 +194,39 @@
     "projects": {
       "title": "Projects",
       "npm_package": {
-        "name": "Npm package wbitencourt",
+        "name": "npm-wbitencourt",
         "year": "2025",
-        "description": "Personal monorepo with NPM tools (CLI and utility library) built to improve workflow and learning in TypeScript.",
+        "description": "A personal monorepo containing npm tools and utilities developed for personal use, projects and learning.",
+        "link": "View project"
+      },
+      "claw_pi_docker": {
+        "name": "claw-pi-docker",
+        "year": "2026",
+        "description": "Dockerized open-claw server for Raspberry Pi OS.",
+        "link": "View project"
+      },
+      "shelf_play": {
+        "name": "shelf-play",
+        "year": "2026",
+        "description": "Your movies and series organized your way!",
         "link": "View project"
       },
       "with_love": {
-        "name": "With love",
+        "name": "with-love",
         "year": "2025",
-        "description": "An interactive and personalized web app made for a special occasion, with photo slideshow, relationship info, music player and animations.",
+        "description": "A romantic web app created especially to remember our moments and celebrate our time together.",
+        "link": "View project"
+      },
+      "giulice_js": {
+        "name": "giulice.js",
+        "year": "2025",
+        "description": "A custom React component library built for learning and personal project use.",
         "link": "View project"
       },
       "bluetooth_car": {
-        "name": "Bluetooth solar RC car",
+        "name": "bluetooth-solar-rc-car",
         "year": "2021",
-        "description": "Solar RC car controlled by Bluetooth. Project focused on energy optimization and electronics.",
+        "description": "A solar-powered car using Arduino. It uses Bluetooth for control and solar panels to recharge the battery.",
         "link": "View project"
       }
     },

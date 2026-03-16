@@ -4,6 +4,7 @@ import createNextIntlPlugin from 'next-intl/plugin';
 const hostnames = [
   'avatars.githubusercontent.com',
   'raw.githubusercontent.com',
+  'github.com',
 ];
 
 const nextConfig: NextConfig = {

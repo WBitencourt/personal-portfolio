@@ -194,21 +194,39 @@
     "projects": {
       "title": "Projetos",
       "npm_package": {
-        "name": "Npm package wbitencourt",
+        "name": "npm-wbitencourt",
         "year": "2025",
-        "description": "Monorepo pessoal com ferramentas NPM (CLI e biblioteca utilitária) construída para melhorar fluxo de trabalho e aprendizado em TypeScript.",
+        "description": "Monorepo pessoal com ferramentas e utilitários npm para uso pessoal, projetos e aprendizado.",
+        "link": "Ver projeto"
+      },
+      "claw_pi_docker": {
+        "name": "claw-pi-docker",
+        "year": "2026",
+        "description": "Servidor open-claw dockerizado para Raspberry Pi OS.",
+        "link": "Ver projeto"
+      },
+      "shelf_play": {
+        "name": "shelf-play",
+        "year": "2026",
+        "description": "Seus filmes e séries organizados do seu jeito!",
         "link": "Ver projeto"
       },
       "with_love": {
-        "name": "With love",
+        "name": "with-love",
         "year": "2025",
-        "description": "Um web app interativo e personalizado feito para uma ocasião especial, com slideshow de fotos, informações do relacionamento, player de música e animações.",
+        "description": "Aplicação web romântica criada especialmente para recordar momentos e celebrar nosso tempo juntos.",
+        "link": "Ver projeto"
+      },
+      "giulice_js": {
+        "name": "giulice.js",
+        "year": "2025",
+        "description": "Biblioteca de componentes React personalizada para aprendizado e projetos pessoais.",
         "link": "Ver projeto"
       },
       "bluetooth_car": {
-        "name": "Bluetooth solar RC car",
+        "name": "bluetooth-solar-rc-car",
         "year": "2021",
-        "description": "Carrinho RC solar controlado por Bluetooth. Projeto focado em otimização de energia e eletrônica.",
+        "description": "Carrinho movido a energia solar usando Arduino, com Bluetooth para controle e painéis solares para recarregar a bateria.",
         "link": "Ver projeto"
       }
     },
