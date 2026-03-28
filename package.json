@@ -14,7 +14,7 @@
     "@radix-ui/react-tooltip": "^1.2.7",
     "clsx": "^2.1.1",
     "lucide-react": "^0.562.0",
-    "next": "^16.1.1",
+    "next": "^16.1.6",
     "next-intl": "^4.7.0",
     "nookies": "^2.5.2",
     "phosphor-react": "^1.4.1",
