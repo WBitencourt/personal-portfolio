@@ -43,7 +43,7 @@ export default async function Home() {
   const t = await getTranslations('portfolio');
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-black dark:to-gray-900">
+    <div className="min-h-screen bg-linear-to-br from-slate-50 to-slate-100 dark:from-black dark:to-gray-900">
       <div className="max-w-6xl mx-auto p-6 lg:p-8">
         {/* Header/Hero Section */}
         <header className="text-center mb-12 lg:mb-16">
@@ -126,6 +126,24 @@ export default async function Home() {
                   </h3>
                   <div className="grid grid-cols-8 md:grid-cols-10 lg:grid-cols-4 gap-3">
                     {(t.raw('skills.general.techs') as Array<{name: string, src: string, url: string}>).map((tech, index) => (
+                      <TechCard
+                        key={index}
+                        name={tech.name}
+                        src={tech.src}
+                        url={tech.url}
+                        className="py-2"
+                      />
+                    ))}
+                  </div>
+                </div>
+
+                {/* Automation & Integrations */}
+                <div>
+                  <h3 className="text-lg font-semibold text-slate-500 dark:text-gray-400 mb-3">
+                    {t('skills.automation-integrations.title')}
+                  </h3>
+                  <div className="grid grid-cols-8 md:grid-cols-10 lg:grid-cols-4 gap-3">
+                    {(t.raw('skills.automation-integrations.techs') as Array<{name: string, src: string, url: string}>).map((tech, index) => (
                       <TechCard
                         key={index}
                         name={tech.name}

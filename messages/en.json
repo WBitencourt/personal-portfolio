@@ -42,6 +42,12 @@
           {"name": "Vitest", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/vitest.svg", "url": "https://vitest.dev"}
         ]
       },
+      "automation-integrations": {
+        "title": "Automation & Integrations",
+        "techs": [
+          {"name": "N8N", "src": "https://raw.githubusercontent.com/WBitencourt/wbitencourt/main/images/n8n.svg", "url": "https://n8n.io/"}
+        ]
+      },
       "frontend": {
         "title": "Frontend",
         "techs": [
