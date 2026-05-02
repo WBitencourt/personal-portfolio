@@ -107,9 +107,12 @@ export default async function Home() {
               <p className="text-slate-600 dark:text-gray-300 leading-relaxed text-base">
                 {t('about.description2')}
               </p>
-              {/* <p className="text-slate-600 dark:text-gray-300 leading-relaxed text-base">
+              <p className="text-slate-600 dark:text-gray-300 leading-relaxed text-base">
                 {t('about.description3')}
-              </p> */}
+              </p>
+              <p className="text-slate-600 dark:text-gray-300 leading-relaxed text-base">
+                {t('about.description4')}
+              </p>
             </section>
 
             {/* Skills */}
